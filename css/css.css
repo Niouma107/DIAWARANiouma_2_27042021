@@ -1,0 +1,401 @@
+
+    html,body {
+        font-family:raleway,sans-serif;
+    }
+    .corps {
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    /*header*/
+    .menunav {
+        display:flex;
+        justify-content:space-between;
+        margin-top:40px;
+        margin-bottom:10px;
+    }
+    .liennav {
+        margin-top:18px;
+        padding: 0;
+    }
+    /* lien ancre*/
+    /*pour le lien hebergement */
+    /* pour lien activité*/
+    .liens2 {
+        color:black;
+        text-decoration:none;
+        padding:40px 30px 0 30px;
+        margin-top:8px;
+    }
+    .liens2:hover {
+        color:#0065FC;
+        border-top: solid 2px #0065FC;
+    }
+    /*pour le lien s'sincrire*/
+    .liens3 {
+        color:blue;
+        text-decoration:none;
+        padding: 40px 30px 0 30px;
+    }
+    /* taille logo reservia*/
+    .photologo {
+        width:120px;
+        height:50px;
+        margin-bottom: 10px;
+    }
+    /*regle zone de recherche+imput+logo maps*/
+    .recherche {
+        display:flex;
+        align-items:center;
+        border:0,5px solid #f2f2f2;
+        margin-top: 10px;
+    }
+    /* bouton recherche*/
+    .button1 {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:120px;
+        height:50px;
+        color:white;
+        background-color:#0065FC;
+        cursor:pointer;
+        border-radius:0 10px 10px 0;
+        font-family:raleway;
+        font-size: 18px;
+    }
+    /* zone de recherche*/
+    #maRecherche {
+        height:50px;
+        width:230px;
+        font-size:18px;
+        color:black;
+        font-weight:bold;
+        padding-left:20px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border:none;
+        font-family: raleway;
+    }
+    /* icone maps*/
+    #logoplace {
+        height:50px;
+        width:50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#f2f2f2;
+        border-radius: 10px 0 0 10px;
+    }
+    /* partie filtres,economie,familial,romantique etc...*/
+    .filtres {
+        display:flex;
+        font-weight:bolder;
+        margin:40px 0 10px 0;
+        align-items:center;
+    }
+    .filtres2 {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .filtre {
+        display:flex;
+        align-items:center;
+        border:solid 2px #F2F2F2;
+        border-radius:25px;
+        background-color:white;
+        margin-right:35px;
+    }
+    #monnaie,#famille,#amour,#animal {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:#0065FC;
+        background-color:#DEEBFF;
+        border-radius:100%;
+        height:3rem;
+        width: 3rem;
+    }
+    /*/ span eco fam rom ani */
+    .filtres2 span {
+        display:flex;
+        margin: 10px 15px 10px 10px;
+    }
+    /* partie info logo "i" */
+    #info {
+        border-radius:50px;
+        color:blue;
+        height:50px;
+        width:50px;
+        border:1px solid #f2f2f2;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-right:16px;
+        margin-left:-2px;
+        background-color: white;
+    }
+    /*point info */
+    .inf {
+        display:flex;
+        align-items: center;
+    }
+    /* partie images hotel hebergement et populars*/
+    main {
+        height:1540px;
+        max-width:1440px;
+        margin:0 auto;
+        background-color:white;
+    }
+    .titreheb {
+        color:black;
+        font-size:1.3em;
+        padding-left:8px;
+    }
+    .container1 {
+        display:flex;
+        justify-content:space-between;
+        width:100%;
+        padding:0px 15px 0px 15px;
+        margin-left:-36px;
+    }
+    .hotelhebergement {
+        margin-top:20px;
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        padding:15px 30px 15px 15px;
+    }
+    .hebergements {
+        background-color:#F2F2F2;
+        object-fit:cover;
+        border-radius:20px;
+        width:65%;
+    }
+    .ancreimage img {
+        border-radius:15px 15px 0 0;
+        object-fit:cover;
+         height:141px;
+         width:100%;
+        box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+        box-sizing:border-box;
+        border:3px solid #fff;
+    }
+    .nomhotel {
+        background-color:white;
+        overflow:hidden;
+        height:200px;
+        border-radius:0 0 10px 10px;
+        padding-left:15px;
+        padding-top: 5px;
+    }
+    /* police d'ecriture*/
+    .name {
+        font-size:1em;
+        margin: 5px 0;
+    }
+    /*prix des hotel*/
+    .euros {
+        font-weight:600;
+    }
+    .ancreimage {
+        text-decoration:none;
+        color:black;
+        width:250px;
+        margin-top:10px;
+        margin-bottom:10px;
+        height:240px;
+         border-radius:15px;
+         background-color:white;
+         display:flex;
+         flex-direction:column;
+         box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+         cursor:pointer;
+    }
+    .etoile {
+        color:#0065FC;
+        display:flex;
+    }
+    .etoilegray {
+        color:#dbd9d9e3;
+        display:flex;
+        justify-content:center;
+    }
+    .afficher_plus {
+        font-weight:bold;
+        font-size:20px;
+        display:flex;
+        align-items: flex-end;
+    }
+    /* partie les populares*/
+    .populars {
+            width:31.6%;
+        background-color:#F2F2F2;
+        border-radius:20px;
+    }
+    .titrepopulars {
+        display:flex;
+        justify-content:space-between;
+    }
+    .fas.fa-chart-line {
+        display:flex;
+        align-items:center;
+        margin-right:20px;
+    }
+    .hotelbis {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .imagepopular img {
+        width:140px;
+        box-sizing:border-box;
+        border:1px solid #fff;
+        border-bottom-left-radius:15px;
+        border-top-left-radius:15px;
+        box-shadow:0 0 7px #c1c1c1;
+        object-fit:cover;
+    }
+    .imagepopular {
+        display:flex;
+        text-decoration:none;
+        color:black
+    }
+    .textepopularsetphoto {
+        width:90%;
+        height:auto;
+        border-radius:15px;
+        background-color:white;
+        display:flex;
+        flex-direction:row;
+        padding:5px;
+        box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+        cursor:pointer;
+        text-decoration:none;
+        margin-bottom:30px;
+        margin-top:30px;
+    }
+    .textepopularsetphoto1 {
+        width:90%;
+        height:129px;
+        border-radius:15px;
+        background-color:white;
+        display:flex;
+        flex-direction:row;
+        padding:5px;
+        box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+        cursor:pointer;
+        text-decoration:none;
+        margin-bottom:30px;
+        margin-top:30px;
+    }
+    .blocktexte {
+        font-size:1.1em;
+        padding-left:20px;
+        display:flex;
+        flex-direction:column;
+    }
+    .etoilepop {
+        color:#0065FC;
+        display:flex;
+        align-items:flex-end;
+        height:39px;
+    }
+    .etoilegraypop {
+        color:#dbd9d9e3;
+        display:flex;
+        align-items:flex-end;
+        height: 39px;
+    }
+    /*section3*/
+    .activites {
+        display:flex;
+        flex-wrap:wrap;
+        margin-left:-2%;
+    }
+    .activite {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .blockactivite1,.blockactivite2 {
+        display:flex;
+        width:48.27%;
+    }
+    .collonne {
+        width:50%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #F2F2F2;
+    }
+    .cartecollonne img {
+        width:100%;
+        display:block;
+        object-fit:cover;
+        height:362px;
+        border-radius:20px 20px 0 0;
+    }
+    .nom {
+        display:flex;
+        align-items:center;
+        height:17px;
+        padding-left:20px;
+        text-decoration:none;
+        color:black;
+        font-size:1.1em;
+    }
+    .carre {
+        display:flex;
+        flex-direction:column;
+        margin-left:3%;
+        width:50%;
+        margin-right:2%;
+    }
+    .carretype1 img {
+        width:100%;
+        display:block;
+        object-fit:cover;
+        height:163px;
+        border-radius:20px 20px 0 0;
+        box-shadow:0px 0px 2px rgba(0,0,0,0.3);
+    }
+    .carretype1 {
+        box-shadow:0px 2px 2px grey;
+        border-radius:10px;
+        cursor:pointer;
+    }
+    .carretype2 {
+        box-shadow:0px 1px 3px grey;
+        border-radius:15px;
+        width:100%;
+        height:44%;
+        cursor:pointer;
+        margin-top:12px;
+    }
+    .carretype2 img {
+        width:100%;
+        display:block;
+        object-fit:cover;
+        height:138px;
+        border-radius:20px 20px 0 0;
+        box-shadow:0px 1px 3px rgba(0,0,0,0.3);
+    }
+    /*image ancre/*/ a {
+        text-decoration: none;
+    }
+    /* partie footer*/
+    footer {
+        background-color:#F2F2F2;
+        display:flex;
+    }
+    .liensfooter {
+        color:black;
+        text-decoration:none;
+        margin-top:10px;
+    }
+    .divfooter {
+        display:flex;
+        flex-direction:column;
+        margin-right:10%;
+        margin-left: 5%;
+    }

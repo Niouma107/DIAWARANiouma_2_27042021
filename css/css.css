@@ -121,6 +121,9 @@
         display:flex;
         margin: 10px 15px 10px 10px;
     }
+    .filtre:hover {
+        background-color: #7cc2ec;
+    }
     /* partie info logo "i" */
     #info {
         border-radius:50px;
@@ -166,7 +169,7 @@
         flex-wrap:wrap;
         padding:15px 30px 15px 15px;
     }
-    .hebergements {
+    #hebergements {
         background-color:#F2F2F2;
         object-fit:cover;
         border-radius:20px;
@@ -212,6 +215,8 @@
          box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
          cursor:pointer;
     }
+    
+    
     .etoile {
         color:#0065FC;
         display:flex;
@@ -290,6 +295,14 @@
         margin-bottom:30px;
         margin-top:30px;
     }
+    .textepopularsetphoto:hover {
+        background-color: #0065FC;
+        cursor: pointer;
+    }
+    .textepopularsetphoto1:hover{
+        background-color: #0065FC;
+        cursor: pointer;
+    }
     .blocktexte {
         font-size:1.1em;
         padding-left:20px;
@@ -309,7 +322,7 @@
         height: 39px;
     }
     /*section3*/
-    .activites {
+    #activites {
         display:flex;
         flex-wrap:wrap;
         margin-left:-2%;
@@ -335,7 +348,7 @@
         height:362px;
         border-radius:20px 20px 0 0;
     }
-    .nom {
+    .nom{
         display:flex;
         align-items:center;
         height:17px;
@@ -343,6 +356,10 @@
         text-decoration:none;
         color:black;
         font-size:1.1em;
+    }
+    .nom:hover{
+        color: blue;
+        cursor: pointer;
     }
     .carre {
         display:flex;
@@ -398,4 +415,7 @@
         flex-direction:column;
         margin-right:10%;
         margin-left: 5%;
+    }
+    .divfooter:hover {
+        color: #0065FC;
     }

@@ -63,6 +63,9 @@
         font-family:raleway;
         font-size: 18px;
     }
+    .button1:hover {
+        background-color: gray;
+    }
     /* zone de recherche*/
     #maRecherche {
         height:50px;
@@ -192,6 +195,9 @@
         padding-left:15px;
         padding-top: 5px;
     }
+    .nomhotel:hover {
+        color: blue;
+    }
     /* police d'ecriture*/
     .name {
         font-size:1em;
@@ -231,6 +237,7 @@
         font-size:20px;
         display:flex;
         align-items: flex-end;
+        color: black;
     }
     /* partie les populares*/
     .populars {
@@ -419,3 +426,46 @@
     .divfooter:hover {
         color: #0065FC;
     }
+
+
+    /*media queries /*/
+/*ipad
+    @media screen and (max-width: 770px)
+{
+body{
+    display: block;
+}
+
+.container1{
+    display: block;
+   width:100%
+}
+.populars{
+    width: 100%;
+    flex-direction: column;
+}
+footer{
+    display: block;
+     
+
+}*/
+
+@media (max-width:480px){
+    .menunav{
+        flex-direction: column;
+    }
+    .liens3 {
+        position: absolute;
+        top: 20px;
+        right: 5px;
+    }
+    .liens2:hover {
+        color:#0065FC;
+        border-bottom: solid 2px #0065FC;
+        border-top: none;
+    }   
+    #marecherche {
+        width: 75%;
+    }
+}
+

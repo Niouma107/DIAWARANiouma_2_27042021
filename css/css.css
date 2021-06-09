@@ -429,26 +429,7 @@
 
 
     /*media queries /*/
-/*ipad
-    @media screen and (max-width: 770px)
-{
-body{
-    display: block;
-}
 
-.container1{
-    display: block;
-   width:100%
-}
-.populars{
-    width: 100%;
-    flex-direction: column;
-}
-footer{
-    display: block;
-     
-
-}*/
 
 @media (max-width:480px){
     .menunav{
@@ -467,5 +448,21 @@ footer{
     #marecherche {
         width: 75%;
     }
+    #loupe {
+        background-color: #0036FC;
+    }
+    .button1 span{
+       display: none;
+        
+    }
+    .filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nomfiltres {
+        font-size: 1.3em;
+    }
 }
+
+
 

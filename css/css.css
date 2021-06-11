@@ -547,10 +547,18 @@
            margin-top: 713%;
        } 
         }
-        
-   @media (max-width:720px){
-     
-    
+     /* partie IPAD */
+   @media (max-width:750px){
+    .liens2:hover {
+        color:#0065FC;
+        border-bottom: solid 2px #0065FC;
+        border-top: none;
+    }
+    .filtre,.filtre3{
+        margin-bottom: 2%;
+    }
+    .filtre:hover,.filtre3:hover {
+        background-color: #7cc2ec;
    }      
         
 

@@ -80,6 +80,10 @@
         border:none;
         font-family: raleway;
     }
+    /* id loupe*/
+    #loupe{
+        display:none
+    }
     /* icone maps*/
     #logoplace {
         height:50px;
@@ -101,7 +105,7 @@
         display:flex;
         flex-wrap:wrap;
     }
-    .filtre {
+    .filtre,.filtre3 {
         display:flex;
         align-items:center;
         border:solid 2px #F2F2F2;
@@ -109,6 +113,7 @@
         background-color:white;
         margin-right:35px;
     }
+
     #monnaie,#famille,#amour,#animal {
         display:flex;
         align-items:center;
@@ -124,7 +129,7 @@
         display:flex;
         margin: 10px 15px 10px 10px;
     }
-    .filtre:hover {
+    .filtre3:hover,.filtre:hover {
         background-color: #7cc2ec;
     }
     /* partie info logo "i" */
@@ -156,7 +161,8 @@
     .titreheb {
         color:black;
         font-size:1.3em;
-        padding-left:8px;
+        padding-left: 13px;
+        margin-bottom: -2%;
     }
     .container1 {
         display:flex;
@@ -166,7 +172,7 @@
         margin-left:-36px;
     }
     .hotelhebergement {
-        margin-top:20px;
+        margin-top: 7px;
         display:flex;
         justify-content:space-between;
         flex-wrap:wrap;
@@ -428,10 +434,11 @@
     }
 
 
-    /*media queries /*/
+    /*media queries */
 
-
+/*pour mobile et iphone*/
 @media (max-width:480px){
+  
     .menunav{
         flex-direction: column;
     }
@@ -449,6 +456,7 @@
         width: 75%;
     }
     #loupe {
+        display: flex;
         background-color: #0036FC;
     }
     .button1 span{
@@ -461,8 +469,97 @@
     }
     .nomfiltres {
         font-size: 1.3em;
+        margin-top: -10%;
     }
-}
+    .filtre3 {
+        position: absolute;
+        right: -2%;
+    }
+    .filtres2{
+        margin-left: -16%;
+         margin-top: 1%;
+       
+    }
+    .filtre{
+         margin-bottom: 5%;
+
+    }
+        /* partie container hebergement et populaires*/
+
+    .container1 {
+         display: flex;
+        flex-direction: column-reverse;
+        }
+        .populars {
+            width: 112%;
+    
+        }
+        .textepopularsetphoto,.textepopularsetphoto1 {
+            width: 97%;
+        }
+        #hebergements {
+            width: 113%;
+            background-color: white;
+        }
+        .ancreimage{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        /* partie activite */
+        .activite {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .blockactivite1,.blockactivite2 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: -10%;
+        }
+        .collonne{
+            width: 138%;
+            
+         }   
+        
+        .cartecollonne img{
+            height: 175px;
+            margin-top: 10%; 
+             
+        }
+        .carre {
+            width: 138%;
+            margin-top: 10%;
+            margin-left: 0%;
+        }
+        .carretype2{
+            margin-top: 10%;
+            margin-bottom: 8%;
+        }
+        .carretype2 img{
+            height: 151px;
+        }
+
+        footer{
+           display: flex;
+           flex-direction: column;
+           margin-top: 713%;
+       } 
+        }
+        
+   @media (max-width:720px){
+     
+    
+   }      
+        
+
+   
+
+
+
+
+
 
 
 

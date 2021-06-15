@@ -25,6 +25,7 @@
         text-decoration:none;
         padding:40px 30px 0 30px;
         margin-top:8px;
+        padding-bottom: 5px;
     }
     .liens2:hover {
         color:#0065FC;
@@ -46,7 +47,7 @@
     .recherche {
         display:flex;
         align-items:center;
-        border:0,5px solid #f2f2f2;
+        border:0,5px solid #F2F2F2;
         margin-top: 10px;
     }
     /* bouton recherche*/
@@ -164,6 +165,7 @@
         padding-left: 13px;
         margin-bottom: -2%;
     }
+    
     .container1 {
         display:flex;
         justify-content:space-between;
@@ -340,6 +342,11 @@
         flex-wrap:wrap;
         margin-left:-2%;
     }
+    .titreactivite {
+        color:black;
+        font-size:1.3em;
+        padding-left: 13px;
+    }
     .activite {
         display:flex;
         justify-content:space-between;
@@ -435,6 +442,82 @@
 
 
     /*media queries */
+     /* partie IPAD */
+     @media (max-width:780px)and (min-width:480px){
+        /*lien nav*/
+         .liens2:hover {
+             color:#0065FC;
+             border-bottom: solid 2px #0065FC;
+             border-top: none;
+         }
+         /*buttonfiltre*/
+         .filtre,.filtre3{
+             margin-bottom: 2%;
+         }
+         .filtre:hover,.filtre3:hover {
+             background-color: #7cc2ec;
+        } 
+        /*container*/
+         .container1{
+             display: flex;
+             flex-direction: column-reverse; 
+         }
+         /*partielespopulaires*/
+      .populars {
+              width: 105%;
+     
+         }
+         .textepopularsetphoto,.textepopularsetphoto1 {
+              width: 96%;
+         }  
+         .imagepopular{
+             display: flex;
+             margin-left: 20%;
+         }
+         .imagepopular img {
+             width: 180px;
+             object-fit: cover;
+         }
+         /*partie hebergement*/
+         #hebergements {
+             display: flex;
+             flex-wrap: wrap; 
+             background-color: white;
+             width: 100%;
+             object-fit: cover;
+         }
+         .ancreimage{
+             display: flex;
+             margin-right: 2%;
+         }
+         .hotelhebergement{
+             display: flex;
+             
+         }
+         /*partie activite*/
+         #activites{
+             display: flex;
+             flex-direction: column;
+         } 
+         .activite{
+             display: flex;
+             flex-direction: column;
+             align-items: flex-start;
+             width: 190%;
+         }
+         .blockactivite2{
+         margin-top: 2%; 
+         }
+         /* partie footer */
+         footer{
+             display: flex;
+             flex-direction: column;
+             margin-top: 184%;
+         } 
+     
+         }
+     
+
 
 /*pour mobile et iphone*/
 @media (max-width:480px){
@@ -454,6 +537,11 @@
     }   
     #marecherche {
         width: 75%;
+    }
+    .button1{
+        display: flex;
+        height: 40px;
+        width: 60px;
     }
     #loupe {
         display: flex;
@@ -486,7 +574,7 @@
     }
         /* partie container hebergement et populaires*/
 
-    .container1 {
+        .container1 {
          display: flex;
         flex-direction: column-reverse;
         }
@@ -540,27 +628,14 @@
         .carretype2 img{
             height: 151px;
         }
-
+ /* partie footer */
         footer{
            display: flex;
            flex-direction: column;
-           margin-top: 713%;
+           margin-top: 685%;
        } 
         }
-     /* partie IPAD */
-   @media (max-width:750px){
-    .liens2:hover {
-        color:#0065FC;
-        border-bottom: solid 2px #0065FC;
-        border-top: none;
-    }
-    .filtre,.filtre3{
-        margin-bottom: 2%;
-    }
-    .filtre:hover,.filtre3:hover {
-        background-color: #7cc2ec;
-   }      
-        
+
 
    
 

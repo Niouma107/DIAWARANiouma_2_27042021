@@ -153,12 +153,8 @@
         align-items: center;
     }
     /* partie images hotel hebergement et populars*/
-    main {
-        height:1540px;
-        max-width:1440px;
-        margin:0 auto;
-        background-color:white;
-    }
+    
+    
     .titreheb {
         color:black;
         font-size:1.3em;
@@ -228,6 +224,7 @@
          flex-direction:column;
          box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
          cursor:pointer;
+         padding-bottom: 9px;
     }
     
     
@@ -464,18 +461,10 @@
          }
          /*partielespopulaires*/
       .populars {
-              width: 105%;
-     
-         }
-         .textepopularsetphoto,.textepopularsetphoto1 {
-              width: 96%;
-         }  
-         .imagepopular{
-             display: flex;
-             margin-left: 20%;
-         }
+              width: 100%;
+            }
          .imagepopular img {
-             width: 180px;
+             width: 200px;
              object-fit: cover;
          }
          /*partie hebergement*/
@@ -484,15 +473,16 @@
              flex-wrap: wrap; 
              background-color: white;
              width: 100%;
-             object-fit: cover;
+             
          }
-         .ancreimage{
-             display: flex;
-             margin-right: 2%;
-         }
+        .ancreimage{
+            width: 46%;
+            object-fit: cover;
+        }
          .hotelhebergement{
              display: flex;
-             
+             padding: 5%;
+             width: 100%;
          }
          /*partie activite*/
          #activites{
@@ -503,16 +493,18 @@
              display: flex;
              flex-direction: column;
              align-items: flex-start;
-             width: 190%;
+             width: 100%;
          }
-         .blockactivite2{
+         .blockactivite2,.blockactivite1{
          margin-top: 2%; 
+         display: flex;
+         width: 100%;
          }
          /* partie footer */
          footer{
              display: flex;
              flex-direction: column;
-             
+             margin-top: 2%;
          } 
      
          }

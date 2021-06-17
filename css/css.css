@@ -569,7 +569,7 @@
      
 
 
-/*pour mobile et iphone*/
+/*pour mobile et iphone*
 @media screen and (min-width:375px){
   
     .menunav{
@@ -626,7 +626,7 @@
          margin-bottom: 5%;
 
     }
-        /* partie container hebergement et populaires*/
+        /* partie container hebergement et populaires*
 
     .container1 {
          display: flex;
@@ -636,7 +636,7 @@
         }
         /* POPULAIRES*
     
- /* partie footer */
+ /* partie footer *
      footer{
          display: flex;
          flex-direction: column;

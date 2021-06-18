@@ -478,7 +478,7 @@
 
     /*media queries */
      /* partie IPAD */
-    @media screen and (min-width:380px) and (max-width:768px){
+    @media screen and (max-width:768px){
         /*lien nav*/
      .liens2:active {
           color:#0065FC;

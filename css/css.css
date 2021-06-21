@@ -165,9 +165,7 @@
     .container1 {
         display:flex;
         justify-content:space-between;
-       /* width:100%;
-        padding:0px 15px 0px 15px;
-        margin-left:-36px;*/
+      
     }
     .hotelhebergement {
         margin-top: 7px;
@@ -178,7 +176,7 @@
     }
     #hebergements {
         background-color:#F2F2F2;
-        object-fit:cover;
+       
         border-radius:20px;
         width:65%;
     }
@@ -244,7 +242,7 @@
         align-items: flex-end;
         color: black;
     }
-    /* partie les populares*/
+    /* partie les populaires*/
     .populars {
             width:31.6%;
         background-color:#F2F2F2;

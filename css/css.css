@@ -583,7 +583,10 @@
         color:#0065FC;
         border-bottom: solid 2px #0065FC;
         border-top: none;
-    }   
+    } 
+     .liens2:hover{
+         border-top: none;
+     } 
     #marecherche {
         width: 75%;
     }
@@ -639,15 +642,20 @@
     .populars{
         width: 100%;
     }
-    .imagepopular1 img,.imagepopular2 img,.imagepopular3 img{
+    .imagepopular1 img,.imagepopular2 img{
         width: 110px;
         object-fit: cover;
+    }
+    .imagepopular3 img{
+        width: 116px;
+        object-fit: cover;
+        height: 100%;
     }
     .textepopularsetphoto1{
         height: 155px;
     }
     .etoilegraypop3,.etoilepop3{
-        height: 31px;
+        height: 47px;
     }
     /*PARTIE HEBERGEMENT*/
     #hebergements{
